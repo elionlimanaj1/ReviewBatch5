@@ -1,4 +1,4 @@
-package com.review3.OOPS;
+package com.review3.Polymorphism;
 
 public class Animal {
 	String name;
