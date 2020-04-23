@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
 import java.util.*;
 
 public class ReadWriteTextFile {
@@ -32,6 +33,20 @@ public class ReadWriteTextFile {
 			e.printStackTrace();
 		}
 		return text;
+	}
+	
+	public static boolean writeText(String filePath, String text) {
+		boolean flag = false;
+		
+		Path path = Paths.get(filePath);
+		byte[] bytes = text.getBytes();
+		try {
+			Files.write(path, bytes, StandardOpenOption.APPEND);
+			flag = true;
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		return flag;
 	}
 
 }

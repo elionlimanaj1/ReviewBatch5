@@ -12,5 +12,6 @@
 	<classpathentry kind="lib" path="/Users/elionlimanaj/Documents/JarFiles/jar_files/poi-ooxml-schemas-4.1.2.jar"/>
 	<classpathentry kind="lib" path="/Users/elionlimanaj/Documents/JarFiles/jar_files/SparseBitSet-1.2.jar"/>
 	<classpathentry kind="lib" path="/Users/elionlimanaj/Documents/JarFiles/jar_files/xmlbeans-3.1.0.jar"/>
+	<classpathentry kind="lib" path="/Users/elionlimanaj/Documents/JarFiles/MySQL/mysql-connector-java-8.0.19.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
