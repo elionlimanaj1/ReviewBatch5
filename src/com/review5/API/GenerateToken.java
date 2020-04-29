@@ -10,13 +10,9 @@ import com.review4.utils.ReadWriteTextFile;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
+import static com.review5.API.APIContants.*;
 
 public class GenerateToken {
-	private static final String generateTokenPath = System.getProperty("user.dir") + "/extra/generateToken.json";
-	private static final String tokenPath = System.getProperty("user.dir") + "/extra/token.txt";
-	private static final String BASE_URL = "http://166.62.36.207/syntaxapi/api";
-	private static final String GENERATE_TOKEN_URL = "/generateToken.php";
-	private static final String GET_JOB_TITLES_URL = "/jobTitle.php";
 
 	public static void main(String[] args) {
 		// 1. Provide the request header
@@ -70,6 +66,5 @@ public class GenerateToken {
 		JSONObject json = new JSONObject(response.asString());
 		String jsonObjectToken = json.getString("token");
 		System.out.println(jsonObjectToken);
-		//BREAK UNTIL 6:55
 	}
 }
