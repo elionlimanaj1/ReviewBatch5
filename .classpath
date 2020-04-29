@@ -13,5 +13,24 @@
 	<classpathentry kind="lib" path="/Users/elionlimanaj/Documents/JarFiles/jar_files/SparseBitSet-1.2.jar"/>
 	<classpathentry kind="lib" path="/Users/elionlimanaj/Documents/JarFiles/jar_files/xmlbeans-3.1.0.jar"/>
 	<classpathentry kind="lib" path="/Users/elionlimanaj/Documents/JarFiles/MySQL/mysql-connector-java-8.0.19.jar"/>
+	<classpathentry kind="lib" path="/Users/elionlimanaj/Documents/JarFiles/rest-assured-4.3.0-dist/rest-assured-4.3.0.jar"/>
+	<classpathentry kind="lib" path="/Users/elionlimanaj/Documents/JarFiles/rest-assured-4.3.0-dist/rest-assured-4.3.0-deps/activation-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/elionlimanaj/Documents/JarFiles/rest-assured-4.3.0-dist/rest-assured-4.3.0-deps/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="/Users/elionlimanaj/Documents/JarFiles/rest-assured-4.3.0-dist/rest-assured-4.3.0-deps/commons-lang3-3.4.jar"/>
+	<classpathentry kind="lib" path="/Users/elionlimanaj/Documents/JarFiles/rest-assured-4.3.0-dist/rest-assured-4.3.0-deps/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/elionlimanaj/Documents/JarFiles/rest-assured-4.3.0-dist/rest-assured-4.3.0-deps/groovy-3.0.2.jar"/>
+	<classpathentry kind="lib" path="/Users/elionlimanaj/Documents/JarFiles/rest-assured-4.3.0-dist/rest-assured-4.3.0-deps/groovy-json-3.0.2.jar"/>
+	<classpathentry kind="lib" path="/Users/elionlimanaj/Documents/JarFiles/rest-assured-4.3.0-dist/rest-assured-4.3.0-deps/groovy-xml-3.0.2.jar"/>
+	<classpathentry kind="lib" path="/Users/elionlimanaj/Documents/JarFiles/rest-assured-4.3.0-dist/rest-assured-4.3.0-deps/hamcrest-2.1.jar"/>
+	<classpathentry kind="lib" path="/Users/elionlimanaj/Documents/JarFiles/rest-assured-4.3.0-dist/rest-assured-4.3.0-deps/httpclient-4.5.3.jar"/>
+	<classpathentry kind="lib" path="/Users/elionlimanaj/Documents/JarFiles/rest-assured-4.3.0-dist/rest-assured-4.3.0-deps/httpcore-4.4.6.jar"/>
+	<classpathentry kind="lib" path="/Users/elionlimanaj/Documents/JarFiles/rest-assured-4.3.0-dist/rest-assured-4.3.0-deps/httpmime-4.5.3.jar"/>
+	<classpathentry kind="lib" path="/Users/elionlimanaj/Documents/JarFiles/rest-assured-4.3.0-dist/rest-assured-4.3.0-deps/jakarta.activation-api-1.2.1.jar"/>
+	<classpathentry kind="lib" path="/Users/elionlimanaj/Documents/JarFiles/rest-assured-4.3.0-dist/rest-assured-4.3.0-deps/jakarta.xml.bind-api-2.3.2.jar"/>
+	<classpathentry kind="lib" path="/Users/elionlimanaj/Documents/JarFiles/rest-assured-4.3.0-dist/rest-assured-4.3.0-deps/jaxb-osgi-2.3.0.1.jar"/>
+	<classpathentry kind="lib" path="/Users/elionlimanaj/Documents/JarFiles/rest-assured-4.3.0-dist/rest-assured-4.3.0-deps/org.apache.sling.javax.activation-0.1.0.jar"/>
+	<classpathentry kind="lib" path="/Users/elionlimanaj/Documents/JarFiles/rest-assured-4.3.0-dist/rest-assured-4.3.0-deps/tagsoup-1.2.1.jar"/>
+	<classpathentry kind="lib" path="/Users/elionlimanaj/Documents/JarFiles/JUnit/junit-4.12.jar" sourcepath="/Users/elionlimanaj/.m2/repository/junit/junit/4.12/junit-4.12-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/elionlimanaj/Documents/JarFiles/JSON/json-20160810.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

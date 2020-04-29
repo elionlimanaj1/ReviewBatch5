@@ -41,7 +41,7 @@ public class ReadWriteTextFile {
 		Path path = Paths.get(filePath);
 		byte[] bytes = text.getBytes();
 		try {
-			Files.write(path, bytes, StandardOpenOption.APPEND);
+			Files.write(path, bytes, StandardOpenOption.TRUNCATE_EXISTING);
 			flag = true;
 		} catch (IOException e) {
 			e.printStackTrace();
